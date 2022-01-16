@@ -21,6 +21,20 @@
     AtomicBomb: 11
 
 - type: reaction
+  id: SclorpBepis
+  reactants:
+    Chlorine:
+      amount: 10
+    Oil:
+      amount: 5
+    Sugar:
+      amount: 10
+    SpaceLube:
+      amount: 2
+  products:
+    SclorpBepis: 15
+
+- type: reaction
   id: B52
   reactants:
     Cognac:

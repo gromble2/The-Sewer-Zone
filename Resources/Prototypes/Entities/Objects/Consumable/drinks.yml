@@ -119,6 +119,22 @@
 
 - type: entity
   parent: DrinkGlassBase
+  id: DrinkSclorpBepis
+  name: sclorp bepis glass
+  description: The one and only, Sclorp Bepis
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 50
+        reagents:
+        - ReagentId: SclorpBepis
+          Quantity: 50
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/sclorp.rsi
+
+- type: entity
+  parent: DrinkGlassBase
   id: DrinkAleGlass
   name: ale glass
   description: A freezing pint of delicious ale
