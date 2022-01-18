@@ -19,3 +19,11 @@
   id: pop
   files:
   - /Audio/Items/pop.ogg
+
+- type: soundCollection
+  id: somesipOpenSound
+  files:
+  - /Audio/Items/somesip.ogg
+  - /Audio/Items/can_open1.ogg
+  - /Audio/Items/can_open2.ogg
+  - /Audio/Items/can_open3.ogg

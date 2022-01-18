@@ -42,8 +42,12 @@
   parent: DrinkCanBaseFull
   id: DrinkColaCan
   name: space cola
-  description: A refreshing beverage.
+  description: Let's have some sip of cola.
   components:
+  - type: Drink
+    openSounds:
+      collection: somesipOpenSound
+    pressurized: true
   - type: SolutionContainerManager
     solutions:
       drink:
