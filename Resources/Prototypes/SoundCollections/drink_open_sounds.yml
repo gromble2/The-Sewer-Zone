@@ -27,3 +27,8 @@
   - /Audio/Items/can_open1.ogg
   - /Audio/Items/can_open2.ogg
   - /Audio/Items/can_open3.ogg
+
+- type: soundCollection
+  id: choosingbepis
+  files:
+  - /Audio/Items/choosingbepis.ogg
