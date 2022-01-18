@@ -88,8 +88,7 @@
         damage:
           groups:
             Caustic: 5
-          types:
-          Poison: 10
+            Poison: 10
 
 
 - type: reagent
