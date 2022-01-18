@@ -5,3 +5,4 @@ advertisement-cola-4 = Thirsty? Why not cola?
 advertisement-cola-5 = Please, have a drink!
 advertisement-cola-6 = Drink up!
 advertisement-cola-7 = The best drinks in the galaxy!
+advertisement-cola-8 = Try our new and improved slorp bepis formula!
