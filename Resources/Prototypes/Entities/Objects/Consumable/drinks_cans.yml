@@ -84,6 +84,27 @@
 
 - type: entity
   parent: DrinkCanBaseFull
+  id: DrinkBepisCan
+  name: sclorp bepis can
+  description: Nothing can beat the value of bepis.
+  components:
+  - type: Drink
+    openSounds:
+      collection: choosingbepis
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 5
+        reagents:
+        - ReagentId: SclorpBepis
+          Quantity: 5
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/sclorpcan.rsi
+  - type: Item
+    sprite: Objects/Consumable/Drinks/sclorpcan.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
   id: DrinkLemonLimeCan
   name: lemon-lime can
   description: You wanted ORANGE. It gave you Lemon-Lime.
