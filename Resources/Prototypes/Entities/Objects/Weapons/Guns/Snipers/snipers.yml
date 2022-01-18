@@ -79,3 +79,29 @@
   - type: Appearance
     visuals:
     - type: BarrelBoltVisualizer
+    
+- type: entity
+  name: Glok and Weston Model 200 Special Ukraine Corps Kill-o-matic
+  parent: SniperBase
+  id: gloksniper
+  description: Slava Ukraini!
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Snipers/glok.rsi
+  - type: BoltActionBarrel
+    fillPrototype: CartridgeAntiMaterial
+    caliber: AntiMaterial
+    capacity: 1
+    minAngle: 90
+    maxAngle: 180
+    angleIncrease: 30
+    angleDecay: 15
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/bigshot.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/bullet_insert.ogg
+  - type: Appearance
+    visuals:
+    - type: BarrelBoltVisualizer
